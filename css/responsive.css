@@ -1,0 +1,209 @@
+/* *********************************************{   Responsive File    }****************************************** */
+
+@media only screen and (min-width: 769px) and (max-width:1024px) {
+    /************Header Section responsive************/
+    .logo{
+        width: 100%;
+        padding-top: 10px;
+    }
+    nav{
+        text-align: center;
+        width: 100%;
+        display: none;
+        background: var(--mainColor2);
+    }
+    header.elememt_layout{align-items:flex-start;}
+    .fa-bars{display: block;}
+    .list{display:block;}
+    header .btn{display: none;}
+    /************ End Header Section responsive************/
+
+   /************ End HOME Section responsive************/
+   .home_title{font-size: 2.3rem;}
+   /************ End HOME Section responsive************/
+
+
+   /* ******************Start Manage Section************* */
+    .manage_item{width: 47%;}
+    .mang{width: 100%;}
+   /* ******************Ens Manage Section************* */
+
+
+
+    /* *************************Start About  Section********************* */
+     .about_image{width: 100%;}
+     .about_info{width: 100%;}
+     .about_info span{text-align: start;margin:0;}
+    /* *************************End About  Section********************* */
+
+
+
+    /* *************************Start Service  Section********************* */
+     .service_item{width: 30%;}
+    /* *************************End Servive  Section********************* */
+
+
+
+    /* ************************* Start Protect Section******************** */
+     .protect_image{width: 100%;}
+     .protect_info{width: 100%;}
+     .pro_item{width: 50%;}
+    /* ************************* End Protect Section******************** */
+
+
+
+    /********************** Start clint Section****************************/
+    .blog_item{overflow: hidden;width: 45%;}
+   .blo{display: none;}
+    /********************** End clint Section****************************/
+
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* for taplet */
+    /************Header Section responsive************/
+    .logo{
+        width: 100%;
+        padding-top: 10px;
+    }
+    nav{
+        text-align: center;
+        width: 100%;
+        display: none;
+        background: var(--mainColor2);
+    }
+    header.elememt_layout{
+        align-items:flex-start;
+    }
+    .fa-bars{display: block;}
+    .list{display:block;}
+    header .btn{display: none;}
+    /************ End Header Section responsive************/
+
+   /************ End HOME Section responsive************/
+    .home_title{font-size: 2.3rem;}
+    /************ End HOME Section responsive************/
+
+
+    /* ******************Start Manage Section************* */
+    .manage_item{width: 47%;}
+    .mang{width: 100%;}
+    /* ******************Ens Manage Section************* */
+
+
+
+    /* ********************Start About  Section*************** */
+    .about_image{width: 100%;}
+     .about_info{width: 100%;}
+     .about_info span{text-align: start;margin: 0;}
+    /* *****************End About  Section********************* */
+
+
+
+    /* *******************Start Service  Section******************* */
+    .service_item{width: 40%;}
+
+   /* ********************End Servive  Section********************* */
+
+
+
+   /* ******************** Start Protect Section******************** */
+   .protect_image{width: 100%;}
+    .protect_info{width: 100%;}
+    .pro_item{width: 50%;}
+   /* ******************** End Protect Section******************** */
+
+
+
+   .blog_item{overflow: hidden;width: 45%;}
+   .blo{display: none;}
+   .footer_item{width: 44.44%;border-bottom: 3px dotted var(--itemColor);}
+
+
+    
+   /********************** Start clint Section****************************/
+   /********************** End clint Section****************************/
+
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* for phone */
+    /************Header Section responsive************/
+    .logo{
+        width: 100%;
+        padding-top: 10px;
+    }
+    nav{
+        text-align: center;
+        width: 100%;
+        display: none;
+        background: var(--mainColor2);
+    }
+    header.elememt_layout{
+        align-items:flex-start;
+    }
+    .fa-bars{display: block;}
+
+    .list{display:block;}
+    header .btn{display: none;}
+    /************ End Header Section responsive**************/
+
+
+
+    /************* Start Section Home **********************/
+    .home_info{width: 100%;text-align: center;}
+    .home_title{font-size: 1.5rem;}
+    .btn2{width: 100%;}
+    .home_image{width: 100%;margin-top: 50px;}
+    /************ End HOME Section responsive***************/
+
+
+
+    /* ******************Start Manage Section************* */
+    .mg_title{font-size: 1.5rem;}
+    .manage_item{width: 100%;}
+    /* ******************Ens Manage Section************** */
+
+
+
+
+    /* *************************Start About  Section********************* */
+     .about_image{width: 100%;}
+     .about_info{width: 100%;}
+     .about_info{text-align: center;padding-top: 50px;}
+     .about_info .num , .num_info{width: 100%;}
+    /* *************************End About  Section********************* */
+
+
+
+    /* *************************Start Service  Section********************* */
+    .service_item{width: 100%;}
+    .ser_item{transform: translateY(0px);}
+    .ser_item button{width: 140px;transform:scale(1) translateY(0px);}
+    .ser_item button:hover{transform:  translateY(5px);}
+    /* *************************End Servive  Section********************* */
+
+
+    /* ************************* Start Protect Section******************** */
+    .protect_image{width: 100%;}
+    .protect_info{width: 100%;}
+    .pro_item{width: 100%; border-bottom: 4px solid var(--mainColor2) ;}
+    /* ************************* End Protect Section******************** */
+
+
+
+
+    /********************** Start clint Section****************************/
+    .clint_title h2{font-size: 1.7rem;}
+    .clint_item{width: 100%;}
+    /********************** End clint Section****************************/
+
+    .blog_item{overflow: hidden;width: 100%;}
+    .footer_item{width: 100%;}
+
+
+}
+  

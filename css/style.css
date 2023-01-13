@@ -1,0 +1,183 @@
+/* ******************{     Pages Website Cyber     }********************** */
+
+
+/************************************************************ Start header *******************************************/
+header{position: relative;}
+.list{display: inline-block;}
+nav a{padding:15px;font-size: 20px;text-align: center;}
+nav a:hover, .active{
+    color: var(--itemColor);
+}
+.active{color: var(--itemColor);}
+.btn:hover{
+    background-color:var(--itemColor);
+}
+header input , header label{
+    position: absolute;
+    top:15px ;
+    right: 20px;
+}
+header input{display: none;}
+.fa-bars{
+    font-size: 55px;
+    padding:5px;
+    display:none;
+    background: var(--mainColor2);
+}
+.fa-bars:hover{
+    cursor: pointer;
+    color: var(--itemColor_Hover);
+
+}
+ header input:checked ~ nav{display: block;} /* to show menu bar */
+ /************************************************* End header ****************************************************/
+
+
+  /************************************************* Start Section Home ****************************************************/
+  .puff-in-top {
+	animation: puff-in-top 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+  .home_info{width: 45%;}
+  .home_title{font-size: 3.1rem;}
+   .home_image{
+    width: 45%;
+    height: 500px;;
+    background:url("/image/hand.png");
+    background-size:100% 100%;
+   }
+  .btn2{transform:scale(1.1) translateY(28px);}
+  .btn2:hover{transform:  translateY(20px);}
+  .home_image:hover{transform:scaleY(1.1);}  
+
+ /************************************************* End Section Home ****************************************************/
+
+
+
+ /* *************************Start Manage  Section********************* */
+ .manage{box-sizing: border-box;}
+ .manage_title{
+    margin: auto;
+    text-align: center;
+ }
+ .mg_title{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.manage_item{
+    margin-top: 40px;
+    width:calc(30%);
+    height: 100%;
+    text-align: center;
+    padding: 40px;
+    border-radius: 30px;
+    background-color:#231D34;
+    border: 4px solid #231d34; 
+}
+.manage_item:hover{    
+    cursor: pointer;
+    border: 3px solid var(--itemColor) ; 
+
+}
+
+/* *************************End Manage  Section********************* */
+
+
+
+/* *************************Start About  Section********************* */
+.about{
+    margin-top: 50px;
+    background-color:#231D34;
+    padding-bottom: 60px;
+}
+.about_image{
+    width: 50%;
+    height: 600px;
+    background-image: url("/image/cy_hac.png");
+    background-size: 100% 100%;
+}
+.about_info{width: 42%;}
+.about_info h2,h3{font-weight: 800;}
+.about_item2{width: 100%;}
+.num{
+    margin: auto;
+    width: 20%;
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--itemColor);
+}
+.num_info{width: 70%;}
+
+/* *************************End About  Section********************* */
+
+
+
+/* *************************Start Service  Section********************* */
+.service{padding-top:10%;}
+
+.service_item{width: 30%;}
+
+.ser_item h2{font-size: 2rem;}
+
+.service_item a{color: var(--itemColor_Hover);}
+.ser_item{transform: translateY(-140px);}
+.ser_item a{color: var(--textColor);}
+/* *************************End Servive  Section********************* */
+
+
+
+/* ************************* Start Protect Section******************** */
+.protect{padding-top: 70px;}
+.protect_image{
+    background-image: url("/image/hero2.png");
+    background-size: 100% 100%;
+    width:50%;
+    height:600px;
+}
+.protect_image:hover{transform:scaleY(1.1);}
+.protect_info{width: 50%;}
+.pro_top h2{font-size: 2rem;}
+.pro_bottom{margin-top:100px;}
+.pro_item{width:50%;}
+.pro_right{width: 10%;}
+.pro_left{width:70%;}
+/* ************************* End Protect Section******************** */
+
+
+
+/********************** Start clint Section****************************/
+.clint_title{
+    text-align: center;
+    margin: auto;
+}
+.clint_item{
+    font-weight: 900;
+    padding-top: 50px;
+    width: 30%;
+    text-align: center;
+}
+.clint_item>img{
+    border-radius: 50%;
+}
+.clint_item h3{color: var(--itemColor);}
+/********************** End clint Section****************************/
+
+
+/* ***************** Start Blog Section ******************** */
+.blog_item{overflow: hidden;width: 28%;}
+.blo{padding:60px 60px;}
+.blog a{color: var(--itemColor);}
+.blog button a{color:var(--textColor);}
+/* ******************* End Blog Section***************** */
+
+
+
+footer{
+    padding: 20px;
+    background-color: #231d34e0;
+}
+.footer_item{width: 22.222%;}
+.fa{color: var(--itemColor_Hover);}
+footer .list{display:block;}
+
+
+
